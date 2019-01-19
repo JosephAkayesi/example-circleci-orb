@@ -6,6 +6,3 @@ def test_sum_two_plus_two_is_four():
 
 def test_sum_two_plus_two_is_not_five():
     assert Adder().add(3,4) != 6
-
-#def test_multiply():
-#    assert Adder().multiply(3,4) == 12
