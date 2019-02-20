@@ -17,4 +17,3 @@ jobs:
       - run: npm test
       - codecov/upload:
           file: coverage/*.json
-          flags: frontend
